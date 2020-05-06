@@ -1,0 +1,102 @@
+*
+
+{
+	margin: 0;
+	padding:0;
+}
+	@font-face{
+		font-family: "pixelfont";
+		src:url("9801-qMy5.ttf");
+
+	}
+
+	#tulip{
+		width: 200px;
+		position: absolute;
+		top: 5%;
+		left: 5%;
+	}
+
+	.catalog{
+		font-family: "pixelfont";
+		position: absolute;
+		top: 40%;
+		left: 5%;
+	}
+	
+	#one{
+		margin-bottom: 10%;
+	}
+	#one:hover{
+		text-decoration: underline;
+		cursor: default;
+	}
+
+	#two{
+		margin-bottom: 10%;
+	}
+	#two:hover{
+		text-decoration: underline;
+		cursor: default;
+	}
+
+	#three{
+		margin: 0;
+	}
+	#three:hover{
+		text-decoration: underline;
+		cursor: default;
+	}
+
+	.topic{
+		font-size: 12em;
+		font-family: "pixelfont";
+		color: rgba(72, 200, 69, 1);
+		position: absolute;
+		left: 100vw;
+		animation: slide 2s forwards;
+	}
+
+	@keyframes slide{
+		from{
+			position: absolute;
+		left: 100vw;
+		}
+		to{
+			position: absolute;
+		left: 40vw;
+		}
+	}
+
+	#profile{
+		width: 100px;
+		position: absolute;
+		top: 1300px;
+		left: 50vw;
+	}
+
+	.bio{
+		width: 300px;
+		font-size: 1.8em;
+		font-family: "pixelfont";
+		position: absolute;
+		top: 1300px;
+		left: 60vw;
+	}
+
+	.b1{
+		opacity: 30%;
+		position: absolute;
+		top: 1400px;
+		width: 1450px;
+
+
+	}
+
+
+
+
+
+
+
+
